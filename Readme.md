@@ -24,8 +24,8 @@ El archivo Dockerfile permitirá compilar e instalar Nagios y sus complementos e
 También copia las credenciales de autenticación básicas de Nagios definidas en las variables de entorno (archivo .env)
 Modifique dicho archivo segun las credenciales de authenticación que necesite utilizar.
 
-> NAGIOSADMIN_USER=nagiosadmin`
-> NAGIOSADMIN_PASSWORD=password`
+> NAGIOSADMIN_USER=nagiosadmin
+> NAGIOSADMIN_PASSWORD=password
 
 También se puede anular las credenciales de Nagios usando las variables de entorno NAGIOSADMIN_USER_OVERRIDEy NAGIOSADMIN_PASSWORD_OVERRIDE durante la ejecución del comando "docker run".
 
