@@ -40,10 +40,7 @@ Cree y ejecute el contenedor de Nagios-Core utilizando el siguiente comando:
 
 Para anular las credenciales definidas en el archivo .env, use el comando;
 
-> docker run \
-> -e NAGIOSADMIN_USER_OVERRIDE=monadmin \
-> -e NAGIOSADMIN_PASSWORD_OVERRIDE=password \
-> --name nagios-core-4.4.9 -dp 80:80 nagios-core:4.4.9
+'docker run -e NAGIOSADMIN_USER_OVERRIDE=monadmin -e NAGIOSADMIN_PASSWORD_OVERRIDE=password --name nagios-core-4.4.9 -dp 80:80 nagios-core:4.4.9'
 
 Acceso a la interfaz web principal de Nagios
 Para verificar si todo está bien, ahora puede acceder a la interfaz web de Nagios Core;
