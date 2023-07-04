@@ -3,6 +3,7 @@
 Cree un directorio donde se copiaran los archivos necesarios
 
 `mkdir /opt/nagios-core-docker`
+
 `cd /opt/nagios-core-docker/`
 
 `wget https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.4.9.tar.gz`
@@ -10,9 +11,11 @@ Cree un directorio donde se copiaran los archivos necesarios
 `tar xzf nagios-4.4.9.tar.gz`
 
 `wget https://github.com/nagios-plugins/nagios-plugins/releases/download/release-2.4.2/nagios-plugins-2.4.2.tar.gz`
+
 `tar xzf nagios-plugins-2.4.2.tar.gz`
 
 `wget https://github.com/NagiosEnterprises/nrpe/releases/download/nrpe-4.1.0/nrpe-4.1.0.tar.gz`
+
 `tar xzf nrpe-4.1.0.tar.gz`
 
 
