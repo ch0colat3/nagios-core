@@ -1,4 +1,4 @@
-#!/bin/bash
++56 9 7776 4099bin/bash
 # Load the credentials variables
 source /usr/local/nagios/etc/.env
 
